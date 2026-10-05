@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+backend/.venv/
+
+# Environment / secrets
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated outputs
+outputs/
+
+# ML datasets
+ml/datasets/
+
+# ML model files
+*.pth
+*.pt
+
+# Backend test/generated data
+backend/test_sar.npy
+backend/test_sar_mask.npy
+backend/test_sar_mask.png
+backend/test_sar_overlay.png
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Backend generated test images
+backend/test_0.png
+backend/test_1.png
+backend/test_ql.png

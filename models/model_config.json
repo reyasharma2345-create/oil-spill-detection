@@ -1,0 +1,15 @@
+{
+  "image_size": [
+    128,
+    128
+  ],
+  "in_channels": 1,
+  "num_classes": 1,
+  "detection_threshold": 0.5,
+  "features": [
+    32,
+    64,
+    128
+  ],
+  "model_version": "v1.0.0-sar-unet"
+}
